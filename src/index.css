@@ -1,5 +1,5 @@
 body {
-  background: rgb(204, 204, 241);
+  background: hsl(97, 78%, 28%);
 }
 
 * {
@@ -12,12 +12,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .clock-section {
   /* background: #6da2df; */
-  background: #4e5267;
+  background: hsl(0, 0%, 100%);
   flex: 0.5;
   height: 500px;
   max-width: 400px;
@@ -25,25 +25,25 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  -webkit-box-shadow: 10px 10px 30px -11px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 30px -11px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 30px -11px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 30px -11px hsla(0, 0%, 0%, 0.75);
+  -moz-box-shadow: 10px 10px 30px -11px hsla(0, 0%, 0%, 0.75);
+  box-shadow: 10px 10px 30px -11px hsla(0, 0%, 0%, 0.75);
 }
 
 .CircularProgressbar-path {
-  stroke: rgba(130, 224, 149) !important;
+  stroke: hsl(132, 60%, 69%) !important;
 }
 
 .CircularProgressbar-trail {
-  stroke: gray !important;
+  stroke: hsl(0, 0%, 50%) !important;
 }
 
 .CircularProgressbar-text {
-  fill: rgba(130, 224, 149) !important;
+  fill: hsl(132, 60%, 69%) !important;
 }
 
 .CircularProgressbar-background {
-  fill: rgba(130, 224, 149) !important;
+  fill: hsl(132, 60%, 69%) !important;
 }
 
 .button-section {
@@ -53,16 +53,17 @@ body {
 }
 
 button {
-  background: rgb(33, 199, 102);
+  background: hsl(145, 72%, 45%);
   font-size: 24px;
   border: none;
   padding: 5px 15px 5px 15px;
-  color: rgb(53, 52, 52);
+  color: hsl(0, 1%, 21%);
 }
 
 button:hover {
   cursor: pointer;
-  background: rgb(85, 224, 143);
+  background: hsl(145, 69%, 61%);
+  box-shadow: 3px 5px 15px hsla(0, 0%, 0%, 0.5);
 }
 
 button:focus {
